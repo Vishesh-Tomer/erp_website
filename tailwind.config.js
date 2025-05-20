@@ -1,0 +1,73 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: '#002147', // Your specified primary color
+        secondary: '#7b858d', // Your specified secondary color
+        blue: '#0072bc',
+        'blue-light': '#ebf2f5',
+        indigo: '#6610f2',
+        purple: '#6f42c1',
+        pink: '#da2f6b',
+        red: '#de4278',
+        orange: '#f26a2b',
+        yellow: '#f9ce33',
+        green: '#28a745',
+        teal: '#53c0b7',
+        cyan: '#00b6ef',
+        white: '#fff',
+        'gray-light': '#7b858d',
+        gray: '#4a4a68',
+        'gray-dark': '#3d3d3d',
+        success: '#28a745',
+        info: '#00b6ef',
+        warning: '#f9ce33',
+        danger: '#de4278',
+        light: '#ebf2f5',
+        'gray-lightest': '#cad2d6',
+        'gray-lighter': '#afb8bc',
+        'gray-medium': '#929ca0',
+        default: '#fff',
+        dark: '#3d3d3d',
+      },
+      fontFamily: {
+        sans: [
+          '"Karla"',
+          'Arial',
+          '"Noto Sans"',
+          'sans-serif',
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+          '"Noto Color Emoji"',
+        ],
+        mono: [
+          'SFMono-Regular',
+          'Menlo',
+          'Monaco',
+          'Consolas',
+          '"Liberation Mono"',
+          '"Courier New"',
+          'monospace',
+        ],
+      },
+      screens: {
+        'xs': '0px',
+        'sm': '576px',
+        'md': '768px',
+        'lg': '992px',
+        'xl': '1200px',
+        'deco': '1440px',
+        'xxl': '1500px',
+        'max': '2200px',
+      },
+    },
+  },
+  plugins: [],
+};
